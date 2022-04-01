@@ -53,7 +53,6 @@ nav {
   grid-area: nav;
   margin: 0;
   padding: 0;
-
 }
 
 nav ul {
@@ -90,7 +89,7 @@ a {
 }
 
 h2 {
-  font-family: "bookmania", serif;
+  font-family: bookmania, serif;
   font-size: 1.5em;
   color: #f47e08;
   font-weight: bolder;
@@ -131,7 +130,7 @@ main {
 }
 
 .card1 img {
-  border-radius: 16px 16px 0px 0px;
+  border-radius: 16px 16px 0 0;
 }
 
 .card1 a {
