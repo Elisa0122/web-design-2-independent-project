@@ -218,26 +218,21 @@ h4 {
 }
 
 @media only screen and (min-width: 450px) {
-
-  /*header {
+  /* header {
     grid-template-columns: .5fr 1fr;
     grid-template-rows: .25fr .75fr;
     grid-template-areas:
       "logo nav"
       "img img";
-
-  }*/
-
-  /*.icon {
+  } */
+  /* .icon {
     width: 100%;
     margin: 0;
-
-  }*/
+  } */
 
   .nav {
     height: 100%;
     align-items: center;
-
   }
 
   article {
@@ -249,21 +244,17 @@ h4 {
       "p img"
       "p img";
     gap: 1rem;
-
   }
-
 
   article h2 {
     grid-area: h2;
     margin-bottom: 0;
     margin-top: 1em;
-
   }
 
   article p {
     grid-area: p;
     margin: 0;
-
   }
 
   article img {
@@ -283,19 +274,16 @@ h4 {
       "h3 h3"
       "img p";
     gap: 1rem;
-
   }
 
   section h3 {
     grid-area: h3;
-
   }
 
   .paragraph {
     display: flex;
     flex-direction: column;
     grid-area: p;
-
   }
 
   section ul {
@@ -328,8 +316,8 @@ h4 {
     flex-direction: column;
   }
 
-
 }
+
 @media only screen and (min-width: 590px) {
 
   header {
@@ -338,13 +326,11 @@ h4 {
     grid-template-areas:
       "logo nav"
       "img img";
-
   }
 
   .icon {
     width: 100%;
     margin: 0;
-
   }
 
   .nav ul {
@@ -355,10 +341,8 @@ h4 {
     padding-right: 0;
   }
 
-
   .useful .card2 {
     margin: 0 1em;
-
   }
 
 }
@@ -367,7 +351,6 @@ h4 {
 
   .useful li {
     margin: 0 1em 1em auto;
-
   }
 
 }
@@ -377,13 +360,10 @@ h4 {
   body {
     max-width: 90%;
     margin: auto;
-
   }
-
 
   .useful li {
     margin: 1em;
-
   }
 
 }
@@ -393,7 +373,6 @@ h4 {
   body {
     max-width: 85%;
     margin: auto;
-
   }
 
   nav ul {
@@ -408,7 +387,6 @@ h4 {
       "article1 article2"
       "article3 article3";
     gap: 2rem;
-
   }
 
   .information {
@@ -421,18 +399,14 @@ h4 {
       "section1 section2"
       "section3 section3";
     gap: 1rem;
-
-
   }
 
   h3 {
     margin: 0;
-
   }
 
   .useful {
     grid-area: section3;
-
   }
 
   footer h3 {
