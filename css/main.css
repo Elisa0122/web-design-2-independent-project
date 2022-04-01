@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-style: normal;
-  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-family: "Atkinson Hyperlegible", sans-serif;
   line-height: 1.25;
   color: #000;
   -moz-text-size-adjust: 100%;
@@ -90,7 +90,7 @@ a {
 }
 
 h2 {
-  font-family: 'bookmania',serif;
+  font-family: "bookmania" ,serif;
   font-size: 1.5em;
   color: #f47e08;
   font-weight: bolder;
