@@ -1,0 +1,30 @@
+# TEAM
+Designer & Developer: Elisa Nicot <elisa.labourie@gmail.com>
+GitHub: https://github.com/Elisa0122
+Location: Ottawa, Canada
+---
+# THANKS
+
+Photo by Michael Fousert on Unsplash
+Photo by Gary Chan on Unsplash
+Photo by Tingey Injury Law Firm on Unsplash
+Photo by Mikhail Pavstyuk on Unsplash
+Photo by Nathan Dumlao on Unsplash
+Photo by Cytonn Photography on Unsplash
+Photo by Jason Goodman on Unsplash
+Photo by Raul Gonzalez Escobar on Unsplash
+Photo by Daniele D'Andreti on Unsplash
+Photo by Ali Inay on Unsplash
+Photo by Damian Zaleski on Unsplash
+Photo by Mike Petrucci on Unsplash
+Photo by Jimmy Conover on Unsplash
+
+---
+# TECHNOLOGY
+## Software
+- Atom
+- Git + GitHub
+- Photoshop
+- Illustrator
+
+# humanstxt.org
