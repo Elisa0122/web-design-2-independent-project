@@ -116,11 +116,11 @@ main {
 
 .card1 {
   align-items: baseline;
-  background-color: #4A7ACF;
+  background-color: #4a7acf;
   width: 130px;
   height: auto;
   margin: 0 auto;
-  border: 1px solid #4A7ACF;
+  border: 1px solid #4a7acf;
   border-radius: 16px;
   transition: all 200ms linear;
 }
@@ -156,7 +156,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 140px;
-  border: 6px solid #4A7ACF;
+  border: 6px solid #4a7acf;
   border-radius: 16px;
   padding: 1em;
   transition: all 200ms linear;
@@ -183,7 +183,7 @@ li p {
 
 .useful li a {
   display: block;
-  background-color: #4A7ACF;
+  background-color: #4a7acf;
   color: #fff;
   text-align: center;
   border-radius: 16px;
