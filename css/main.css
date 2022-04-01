@@ -337,7 +337,7 @@ h4 {
 
 }
 
-@media only screen and (min-width: 590px) {
+@media only screen and (min-width: 36.87em) {
 
   header {
     grid-template-columns: 1fr 1fr;
@@ -366,7 +366,7 @@ h4 {
 
 }
 
-@media only screen and (min-width: 620px) {
+@media only screen and (min-width: 38.75em) {
 
   .useful li {
     margin: 0 1em 1em auto;
@@ -374,7 +374,7 @@ h4 {
 
 }
 
-@media only screen and (min-width: 680px) {
+@media only screen and (min-width: 42.5em) {
 
   body {
     max-width: 90%;
@@ -387,7 +387,7 @@ h4 {
 
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 56em) {
 
   body {
     max-width: 85%;
