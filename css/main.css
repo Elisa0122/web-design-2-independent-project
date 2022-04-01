@@ -82,17 +82,17 @@ a {
 }
 
 .nav a:hover {
-  color: #F47E08;
+  color: #f47e08;
 }
 
 .active {
-  color: #F47E08;
+  color: #f47e08;
 }
 
 h2 {
   font-family: 'bookmania',serif;
   font-size: 1.5em;
-  color: #F47E08;
+  color: #f47e08;
   font-weight: bolder;
   margin: 2em 0 0;
 }
@@ -126,8 +126,8 @@ main {
 }
 
 .card1:hover {
-  background-color: #F47E08;
-  border: 1px solid #F47E08;
+  background-color: #f47e08;
+  border: 1px solid #f47e08;
 }
 
 .card1 img {
@@ -163,11 +163,11 @@ main {
 }
 
 .useful li:hover {
-  border: 6px solid #F47E08;
+  border: 6px solid #f47e08;
 }
 
 li {
-  text-decoration-color: #F47E08;
+  text-decoration-color: #f47e08;
 }
 
 li img {
@@ -193,11 +193,11 @@ li p {
 }
 
 .useful li a:hover {
-  background-color: #F47E08;
+  background-color: #f47e08;
 }
 
 footer {
-  background-color: #F47E08;
+  background-color: #f47e08;
   margin: 1em 0;
   padding: 1em;
 }
