@@ -299,11 +299,11 @@ h4 {
     grid-area: h3;
   }
 
-  .paragraph {
+  /*.paragraph {
     display: flex;
     flex-direction: column;
     grid-area: p;
-  }
+  }*/
 
   section ul {
     grid-area: p;
