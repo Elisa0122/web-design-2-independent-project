@@ -18,7 +18,6 @@
 
   <header role="banner">
     <h1><img class="icon" src="images/desktop-logo.svg" alt="logo of castlebrook village condominium"></h1>
-    <img class="banner" src="images/castlebrook-village-banner.jpg" alt="Photo of a condominium unit">
     <!--<svg class="menu"><use xlink:href="images/menu-button.svg"></use></svg>-->
     <nav role="navigation" id="nav">
       <ul class="nav">
@@ -30,42 +29,51 @@
     </nav>
   </header>
 
-  <main role="main" id="main">
-    <article class="condominium">
-      <h2>Condominium Overview</h2>
-      <p>The condominium was built in the early 1980s. The houses were built by the Minto company. There are currently 175 houses. There are several kinds of houses: with garage, without garage, with 3 floors or 2 floors and a basement. The area is well served by buses and in 2025 it will be served by O-train.</p>
-      <img src="images/condo-overview.jpg" alt="Photo of a condominium unit">
-    </article>
-    <article class="property">
-      <h2>Property Manager Company</h2>
-      <p>Our property manager is Scott Smith of Condominium Management Group. We've been working with him for 40 years. Please contact Scott if you have any concerns or maintenance requests. He can be reached by email at <a href="#">ssmith@condogroup.ca</a> or by phone at <data value="613 237 9519">613 237 9519</data><data value="227">x227</data></p>
-      <img src="images/property-manager.jpg" alt="photo of a man holding a toy house">
-    </article>
+  <main role="main" id="home">
+    <img class="banner" src="images/castlebrook-village-banner.jpg" alt="Photo of a condominium unit">
+    <div class="condo">
+      <article class="condominium">
+        <h2>Condominium Overview</h2>
+        <p>The condominium was built in the early 1980s. The houses were built by the Minto company. There are currently 175 houses. There are several kinds of houses: with garage, without garage, with 3 floors or 2 floors and a basement. The area is well served by buses and in 2025 it will be served by O-train.</p>
+        <img src="images/condo-overview.jpg" alt="Photo of a condominium unit">
+      </article>
+      <article class="property">
+        <h2>Property Manager Company</h2>
+        <p>Our property manager is Scott Smith of Condominium Management Group. We've been working with him for 40 years. Please contact Scott if you have any concerns or maintenance requests. He can be reached by email at <a href="#">ssmith@condogroup.ca</a> or by phone at <data value="613 237 9519">613 237 9519</data><data value="227">x227</data></p>
+        <img src="images/property-manager.jpg" alt="photo of a man holding a toy house">
+      </article>
+    </div>
     <article class="information">
       <h2>Useful Information</h2>
-      <section>
-        <h3>Visitor parking</h3>
-        <div class="paragraph">
-          <p>Our village is patrolled by Response Security. Vehicles parked in a visitor's space overnight (between 2:00 AM and 7:00 AM) must be registered. You can register your guest's vehicle online or by calling <data value="613 820 3657">613 820 3657</data> or <data value="613 820 3657">613 820 3657</data>.</p>
-          <p>If a vehicle is illegally parked in your assigned parking space, contact City of Ottawa By-Law Services directly at <data value="311">311.</data></p>
-          <p>Vehicles can be registered for up to <data value="">3</data> nights. Unregistered vehicles will be ticketed or towed at owner’s expense.</p>
-        </div>
-        <div class="card1">
-          <img src="images/parking.jpg" alt="photo of parked cars">
-          <a href="https://www.visitorsparking.ca" aria-label="Register your vehicule online">Register here</a>
-        </div>
-      </section>
-      <section>
-        <h3>Garbage & Recycling</h3>
-        <div class="paragraph">
-          <p>The City of Ottawa offers a weekly garbage pick-up service for compost. The collection of cardboard, plastic, and waste is done alternately bi-weekly.</p>
-          <p>In Castlebrook Village, the garbage are collected on Wednesdays.</p>
-        </div>
-        <div class="card1">
-          <img src="images/garbage.jpg" alt="photo of an icon of a person trashing paper in a basket">
-          <a href="https://ottawa.ca/en/garbage-and-recycling/garbage" aria-label="Read more information about garbage & Recycling">More information</a>
-        </div>
-      </section>
+        <section class="parking">
+          <h3>Visitor parking</h3>
+          <div class="info">
+            <div class="paragraph">
+              <p>Our village is patrolled by Response Security. Vehicles parked in a visitor's space overnight (between 2:00 AM and 7:00 AM) must be registered. You can register your guest's vehicle online or by calling <data value="613 820 3657">613 820 3657</data> or <data value="613 820 3657">613 820 3657</data>.</p>
+              <p>If a vehicle is illegally parked in your assigned parking space, contact City of Ottawa By-Law Services directly at <data value="311">311.</data></p>
+              <p>Vehicles can be registered for up to <data value="">3</data> nights. Unregistered vehicles will be ticketed or towed at owner’s expense.</p>
+            </div>
+            <div class="card1">
+              <img src="images/parking.jpg" alt="photo of parked cars">
+              <a href="https://www.visitorsparking.ca" aria-label="Register your vehicule online">Register here</a>
+            </div>
+          </div>
+        </section>
+        <section class="garbage">
+          <h3>Garbage & Recycling</h3>
+          <div class="info">
+            <div class="paragraph">
+              <p>The City of Ottawa offers a weekly garbage pick-up service for compost. The collection of cardboard, plastic, and waste is done alternately bi-weekly.</p>
+              <p>In Castlebrook Village, the garbage are collected on Wednesdays.</p>
+            </div>
+            <div class="card1">
+              <img src="images/garbage.jpg" alt="photo of an icon of a person trashing paper in a basket">
+              <a href="https://ottawa.ca/en/garbage-and-recycling/garbage" aria-label="Read more information about garbage & Recycling">More information</a>
+            </div>
+          </div>
+        </section>
+      </div>
+
       <section class="useful">
         <h3>Useful link</h3>
         <ul class="card2">
@@ -81,11 +89,11 @@
   </main>
 
   <footer role="contentinfo">
+    <h3>Discover our Newsletter</h3>
     <form class="" action="index.html" method="post">
-      <h3>Discover our Newsletter</h3>
       <input type="text" placeholder="Email address" name="mail" required>
       <div class="container">
-        <input type="submit" value="Sign in">
+        <input class="signing" type="submit" value="Sign in">
       </div>
     </form>
     <h3><a href="contact.html">Contact us</a></h3>
