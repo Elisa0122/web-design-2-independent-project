@@ -468,6 +468,11 @@ h4 {
     margin-top: 4em;
   }
 
+  .condominium, .property {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
   /*.info {
@@ -487,11 +492,6 @@ h4 {
   .parking h3, .garbage h3 {
     grid-column: 1/ span 2;
   }*/
-
-
-
-
-}
 
 @media only screen and (min-width: 32em) {
 
@@ -580,14 +580,14 @@ h4 {
   }
 
   .store ul {
-    grid-column: 1 / span 2;
-    grid-row: 2 / 3;
+    grid-area: p;
   }
 
   .store img {
-    grid-column: 1 / span 2;
-    grid-row: 3 / 4;
+grid-area: img;
     height: 200px;
+    margin: auto;
+    width: unset;
   }
 
   .condo {
@@ -597,12 +597,11 @@ h4 {
   }
 
   .condominium p, .property p {
-    grid-column: 1 / span 2;
+    grid-area: p;
   }
 
   .condominium img, .property img {
-    grid-column: 1 / span 2;
-    grid-row: 3 / 4;
+    grid-area: img;
   }
 
   .useful ul {
@@ -613,6 +612,14 @@ h4 {
     display: flex;
     align-content: flex-start;
     justify-content: flex-end;
+  }
+
+  .card1 a {
+    padding-top: 5px;
+  }
+
+  p {
+    margin: 0 0 auto;
   }
 
 }
