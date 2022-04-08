@@ -359,13 +359,12 @@ form {
 
   .store ul {
     grid-area: p;
+
   }
 
   .store img {
-grid-area: img;
+    grid-area: img;
     height: 200px;
-    margin: auto;
-    width: unset;
   }
 
   .condo {
@@ -421,5 +420,12 @@ grid-area: img;
     max-width: 80%;
   }
 
+}
+
+@media only screen and (min-width: 81.25em) {
+
+  body {
+    max-width: 1032px;
+  }
 
 }
