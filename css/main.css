@@ -180,6 +180,7 @@ p {
   border-radius: 16px;
   padding: .5em;
   font-size: .85em;
+  font-weight: bold;
   transition: all 200ms linear;
 }
 
