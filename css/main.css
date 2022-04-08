@@ -80,11 +80,11 @@ h1 {
 
 .card1 {
   align-items: baseline;
-  background-color: #4a7acf;
+  background-color: #2b56a1;
   width: 130px;
   height: auto;
   margin: 0 auto;
-  border: 1px solid #4a7acf;
+  border: 1px solid #2b56a1;
   border-radius: 16px;
   transition: all 200ms linear;
 }
@@ -105,7 +105,6 @@ h1 {
   color: #fff;
   padding: 10px;
   font-size: .85em;
-  font-weight: bold;
 }
 
 .useful ul {
@@ -121,7 +120,7 @@ h1 {
   display: flex;
   flex-direction: column;
   width: 140px;
-  border: 6px solid #4a7acf;
+  border: 6px solid #2b56a1;
   border-radius: 16px;
   padding: 1em;
   transition: all 200ms linear;
@@ -174,13 +173,12 @@ p {
 
 .useful li a {
   display: block;
-  background-color: #4a7acf;
+  background-color: #2b56a1;
   color: #fff;
   text-align: center;
   border-radius: 16px;
   padding: .5em;
   font-size: .85em;
-  font-weight: bold;
   transition: all 200ms linear;
 }
 
@@ -233,7 +231,7 @@ form {
 
 .signing {
   display: block;
-  background-color: #4a7acf;
+  background-color: #2b56a1;
   color: #fff;
   text-align: center;
   border-radius: 0 16px 16px 0;
